@@ -21,12 +21,14 @@ const SingleProject = ({name,year,align,image,link}) => {
                 View <BiSolidRightTopArrowCircle /> 
             </a>
         </div>
-        <div className="max-h-[220px] max-w-[400px] rounded-xl overflow-hidden hover:scale-110 transform transition-all duration-500 ralative border border-white">
-            {/* Below is a cyan layer over the project image, I don't want it
-            But if decide to put it back uncoment below */}
-            {/* <div className="w-full h-full bg-cyan opacity-50 absolute top-0 left-0 hover:opacity-0 transition-all duration-500 md:block sm:hidden"></div> */}
-            <img src={image} alt='Project Image' className="w-full h-full"/>
-        </div>
+        <a href={link} target="_blank" rel="noopener noreferrer">
+            <div className="max-h-[220px] max-w-[400px] rounded-xl overflow-hidden hover:scale-110 transform transition-all duration-500 ralative border border-white">
+                {/* Below is a cyan layer over the project image, I don't want it
+                But if decide to put it back uncoment below */}
+                {/* <div className="w-full h-full bg-cyan opacity-50 absolute top-0 left-0 hover:opacity-0 transition-all duration-500 md:block sm:hidden"></div> */}
+                <img src={image} alt='Project Image' className="w-full h-full"/>
+            </div>
+        </a>
     </motion.div>
   )
 }
