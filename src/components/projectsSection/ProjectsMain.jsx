@@ -9,7 +9,7 @@ const projects = [
         name:'Housing Price Prediction Model',
         year:'Projected Jul2025',
         align:'right',
-        image:'/images/stockProjectImage2.jpg',
+        image:'/images/HousingPriceModelLogo.jpg',
         link:'#',
     },
     {
@@ -23,7 +23,7 @@ const projects = [
         name:'BoilerSync',
         year:'2024',
         align:'right',
-        image:'/images/stockProjectImage2.jpg',
+        image:'/images/BoilerSyncLogo.avif',
         link:'https://github.com/IrfanHussain2145/GP-ForkedRepo-BoilerSync',
     },
     {
