@@ -30,7 +30,7 @@ const projects = [
         name:'BudgetTracker',
         year:'2023',
         align:'left',
-        image:'../../public/images/stockProjectImage2.jpg',
+        image:'../../public/images/BudgetTrackerLogo2.jpg',
         link:'https://github.com/IrfanHussain2145/GP-ForkedRepo-BudgetTracker',
     },
 ];
