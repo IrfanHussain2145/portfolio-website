@@ -14,7 +14,8 @@ const SingleProject = ({name,year,align,image,link}) => {
             <h2 className={`text-xl font-thin text-white font-special sm:text-center ${
             align === "left" ? "md:text-right" : "md:text-left"
           }`}> {year} </h2>
-            <a href={link} className={`text-lg flex gap-2 items-center text-cyan hover:text-orange transition-all duration-500 cursor-pointer sm:justify-self-center ${
+            <a href={link} target="_blank" rel="noopener noreferrer"
+            className={`text-lg flex gap-2 items-center text-cyan hover:text-orange transition-all duration-500 cursor-pointer sm:justify-self-center ${
             align === "left" ? "md:justify-self-end" : "md:justify-self-start"
           }`}>
                 View <BiSolidRightTopArrowCircle /> 

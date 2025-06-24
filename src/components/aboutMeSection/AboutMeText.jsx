@@ -13,9 +13,9 @@ const AboutMeText = () => {
         careers in tech. Outside of coding, I enjoy continuous learning and
         sharing knowledge to inspire others to achieve their goals.
       </p>
-      <button className="border border-orange rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center text-white hover:text-cyan ">
+      {/* <button className="border border-orange rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center text-white hover:text-cyan ">
           My Projects
-      </button>
+      </button> */}
     </div>
   );
 };

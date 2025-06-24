@@ -6,32 +6,32 @@ import {fadeIn} from '../../framerMotion/variants'
 
 const projects = [
     {
+        name:'Housing Price Prediction Model',
+        year:'Projected Jul2025',
+        align:'right',
+        image:'../../public/images/stockProjectImage2.jpg',
+        link:'#',
+    },
+    {
         name:'ML Stock Price Forecaster',
         year:'Jun2025',
-        align:'right',
-        image:'../../public/images/stockProjectImage2.jpg',
-        link:'#',
-    },
-    {
-        name:'Project 1',
-        year:'OtherDate',
         align:'left',
         image:'../../public/images/stockProjectImage2.jpg',
         link:'#',
     },
     {
-        name:'Project 2',
-        year:'OtherDate2',
+        name:'BoilerSync',
+        year:'2024',
         align:'right',
         image:'../../public/images/stockProjectImage2.jpg',
-        link:'#',
+        link:'https://github.com/IrfanHussain2145/GP-ForkedRepo-BoilerSync',
     },
     {
-        name:'Project 3',
-        year:'OtherDate3',
+        name:'BudgetTracker',
+        year:'2023',
         align:'left',
         image:'../../public/images/stockProjectImage2.jpg',
-        link:'#',
+        link:'https://github.com/IrfanHussain2145/GP-ForkedRepo-BudgetTracker',
     },
 ];
 
@@ -43,7 +43,7 @@ const ProjectsMain = () => {
         </motion.div>
         <div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
             {projects.map((item,index) => {
-                return <SingleProject key={index} name={item.name} year={item.year} align={item.align} image={item.image} />
+                return <SingleProject key={index} name={item.name} year={item.year} align={item.align} image={item.image} link={item.link} />
             })}
         </div>
     </div>
