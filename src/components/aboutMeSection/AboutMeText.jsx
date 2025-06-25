@@ -5,13 +5,12 @@ const AboutMeText = () => {
     <div className="flex flex-col md:items-start sm:items-center md:text-left sm:text-center">
       <h2 className="text-6xl text-cyan mb-10">About Me</h2>
       <p className="text-white">
-        I’m Abdelrahman, a web developer instructor with a passion for teaching
-        and coding. I specialize in React and front-end development, helping
-        students build real-world projects and master modern web technologies. I
-        also run a YouTube channel, CodeNest, where I create tutorials and
-        courses to guide aspiring developers in their journey toward successful
-        careers in tech. Outside of coding, I enjoy continuous learning and
-        sharing knowledge to inspire others to achieve their goals.
+      My name is Irfan Hussain, and I am a Purdue University graduate with 
+      a degree in Computer Science. I am a driven and self-motivated individual 
+      who takes pride in delivering high-quality work and continuously pushing 
+      myself to grow. I thrive on challenges and believe in improving a little every day. 
+      What motivates me most is the opportunity to contribute to meaningful, impactful 
+      projects—especially those that leverage modern technologies to solve real-world problems.
       </p>
       {/* <button className="border border-orange rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center text-white hover:text-cyan ">
           My Projects
