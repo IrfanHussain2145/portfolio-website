@@ -6,11 +6,11 @@ import {fadeIn} from '../../framerMotion/variants'
 
 const projects = [
     {
-        name:'Housing Price Prediction Model',
-        year:'Projected Jul2025',
+        name:'NFL Playoff Prediction Model',
+        year:'Aug2025',
         align:'right',
-        image:'/images/HousingPriceModelLogo.jpg',
-        link:'#',
+        image:'/images/nfl-playoffs-logo1.avif',
+        link:'https://github.com/IrfanHussain2145/nfl-playoff-prediction-model',
     },
     {
         name:'ML Stock Price Forecaster',
