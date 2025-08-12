@@ -6,29 +6,29 @@ import {fadeIn} from '../../framerMotion/variants'
 
 const projects = [
     {
-        name:'NFL Playoff Prediction Model',
+        name:'Weather ETL Pipeline',
         year:'Aug2025',
         align:'right',
+        image:'/images/weatherdata1.jpg',
+        link:'https://github.com/IrfanHussain2145/weather-ETL-pipeline',
+    },
+    {
+        name:'NFL Playoff Prediction Model',
+        year:'Jul2025',
+        align:'left',
         image:'/images/nfl-playoffs-logo1.avif',
         link:'https://github.com/IrfanHussain2145/nfl-playoff-prediction-model',
     },
     {
-        name:'ML Stock Price Forecaster',
-        year:'Jun2025',
-        align:'left',
-        image:'/images/stockProjectImage2.jpg',
-        link:'#',
-    },
-    {
         name:'BoilerSync',
-        year:'2024',
+        year:'Dec2024',
         align:'right',
         image:'/images/BoilerSyncLogo.avif',
         link:'https://github.com/IrfanHussain2145/GP-ForkedRepo-BoilerSync',
     },
     {
         name:'BudgetTracker',
-        year:'2023',
+        year:'Dec2023',
         align:'left',
         image:'/images/BudgetTrackerLogo2.jpg',
         link:'https://github.com/IrfanHussain2145/GP-ForkedRepo-BudgetTracker',
