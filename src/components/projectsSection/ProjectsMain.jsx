@@ -6,11 +6,11 @@ import {fadeIn} from '../../framerMotion/variants'
 
 const projects = [
     {
-        name:'Weather ETL Pipeline',
+        name:'Stock Market ETL Pipeline',
         year:'Aug2025',
         align:'right',
-        image:'/images/weatherdata1.jpg',
-        link:'https://github.com/IrfanHussain2145/weather-ETL-pipeline',
+        image:'/images/stockProjectImage2.jpg',
+        link:'https://github.com/IrfanHussain2145/stock-market-etl-pipeline',
     },
     {
         name:'NFL Playoff Prediction Model',
