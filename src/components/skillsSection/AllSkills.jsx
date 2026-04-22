@@ -20,28 +20,28 @@ const skills = [{
     icon: SiPytorch,
 },
 {
+    skill:'R',
+    icon: RiReactjsFill, //change logo
+},
+{
     skill:'SQL',
     icon: BiLogoPostgresql,
 },
 {
-    skill:'ReactJS',
-    icon: RiReactjsFill,
-},
-{
-    skill:'Java',
-    icon: FaJava,
-},
-{
-    skill:'NodeJS',
-    icon: FaNodeJs,
-},
-{
-    skill:'TailwindCSS',
-    icon: RiTailwindCssFill,
-},
-{
     skill:'AWS',
     icon: FaAws,
+}
+{
+    skill:'Databricks',
+    icon: FaNodeJs, //change logo
+},
+{
+    skill:'Technical Presentations',
+    icon: RiTailwindCssFill, //Slides lgoo or projector
+},
+{
+    skill:'Project Management',
+    icon: FaAws, //logo or an excel file? or something
 }
 ];
 
