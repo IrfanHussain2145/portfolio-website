@@ -30,7 +30,7 @@ const skills = [{
 {
     skill:'AWS',
     icon: FaAws,
-}
+},
 {
     skill:'Databricks',
     icon: FaNodeJs, //change logo
