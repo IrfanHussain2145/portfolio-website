@@ -27,7 +27,7 @@ const AboutMeImage = () => {
         <img
           src="/images/myUniversities2.png"
           alt="About Me"
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover object-[60%_50%] scale-95"//className="h-full w-full object-cover"
         />
       </div>
 
