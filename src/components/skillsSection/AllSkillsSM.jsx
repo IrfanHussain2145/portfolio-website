@@ -11,6 +11,9 @@ import SingleSkill from './SingleSkill';
 import {motion} from 'framer-motion';
 import {fadeIn} from '../../framerMotion/variants'
 
+import { SiR } from "react-icons/si";
+
+
 const skills = [{
     skill:'Python',
     icon: FaPython,
@@ -21,7 +24,7 @@ const skills = [{
 },
 {
     skill:'R',
-    icon: RiReactjsFill, //change logo
+    icon: SiR, //change logo
 },
 {
     skill:'SQL',
