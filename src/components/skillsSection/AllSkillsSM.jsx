@@ -13,6 +13,8 @@ import {fadeIn} from '../../framerMotion/variants'
 
 import { SiR } from "react-icons/si";
 import { TbBrandDatabricks } from "react-icons/tb";
+import { HiPresentationChartBar } from "react-icons/hi2";
+
 
 
 
@@ -42,7 +44,7 @@ const skills = [{
 },
 {
     skill:'Technical Presentations',
-    icon: RiTailwindCssFill, //Slides lgoo or projector
+    icon: HiPresentationChartBar, //Slides lgoo or projector
 },
 {
     skill:'Project Management',
