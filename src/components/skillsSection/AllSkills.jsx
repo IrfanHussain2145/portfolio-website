@@ -13,6 +13,10 @@ import {fadeIn} from '../../framerMotion/variants'
 
 import { SiR } from "react-icons/si";
 import { TbBrandDatabricks } from "react-icons/tb";
+import { HiPresentationChartBar } from "react-icons/hi2";
+import { FaTasks } from "react-icons/fa";
+
+
 
 
 const skills = [{
@@ -41,11 +45,11 @@ const skills = [{
 },
 {
     skill:'Technical Presentations',
-    icon: RiTailwindCssFill, //Slides lgoo or projector
+    icon: HiPresentationChartBar, //Slides lgoo or projector
 },
 {
     skill:'Project Management',
-    icon: FaAws, //logo or an excel file? or something
+    icon: FaTasks, //logo or an excel file? or something
 }
 ];
 
