@@ -12,6 +12,8 @@ import {motion} from 'framer-motion';
 import {fadeIn} from '../../framerMotion/variants'
 
 import { SiR } from "react-icons/si";
+import { TbBrandDatabricks } from "react-icons/tb";
+
 
 const skills = [{
     skill:'Python',
@@ -35,7 +37,7 @@ const skills = [{
 },
 {
     skill:'Databricks',
-    icon: FaNodeJs, //change logo
+    icon: TbBrandDatabricks, //change logo
 },
 {
     skill:'Technical Presentations',
